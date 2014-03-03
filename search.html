@@ -1,0 +1,431 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Modules :: HomeHound</title>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:700,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/global.css" type='text/css'>
+  <link rel="stylesheet" href="css/medium.css" type='text/css' media="(min-width:48em)">
+  <link rel="stylesheet" href="css/wide.css" type='text/css' media="(min-width:68em)">
+  <link rel="stylesheet" href="css/super.css" type='text/css' media="(min-width:85em)">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/medium.css" type='text/css'>
+    <link rel="stylesheet" href="css/wide.css" type='text/css'>
+  <![endif]-->
+
+  <script type="text/javascript" src="js/vendor/modernizr.custom.09416.js"></script>
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEaplFvxZw2tn1q2hpnXgl5VvKLZ-LaY4&sensor=false"></script>
+
+</head>
+<!--[if lte IE 8 ]><body class="lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]><body class="lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!-->
+<body class="no-ie"><!--<![endif]-->
+
+  <div class="header-container">
+    <header id="bodyHeader" class="body-header" role="banner">
+      <div class="header-tab logo-tab">
+        <button class="nav-switch super-hidden" data-tog data-tog-all data-tog-el=".body-header, .body-nav, .nav-spacer" data-tog-el-class="active" data-tog-this-class="active" title="Show/Hide Nav">
+          <span class="nav-switch-bar top"></span>
+          <span class="nav-switch-bar middle"></span>
+          <span class="nav-switch-bar bottom"></span>
+        </button>
+        <div class="alternate-logo mobile-hidden"></div>
+      </div>
+      <div class="header-content logo-content">
+        <h1 class="site-h"><a href="#" class="site-logo ir">HomeHound</a></h1>
+      </div>
+    </header><!-- /#bodyHeader -->
+
+    <nav id="bodyNav" class="body-nav" role="navigation">
+      <ul class="site-nav">
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-sale nav-tab"></span>
+            <span class="nav-content">For Sale</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-rent nav-tab"></span>
+            <span class="nav-content">To Rent</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-share nav-tab"></span>
+            <span class="nav-content">Share</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-agents nav-tab"></span>
+            <span class="nav-content">Agents</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-nspire nav-tab"></span>
+            <span class="nav-content">Inspiration</span>
+          </a></li>
+      </ul>
+    </nav><!-- /#bodyNav -->
+
+    <div class="nav-spacer">
+      <div class="spacer-tab"></div>
+      <div class="spacer-content spacer-adverts">
+        <div class="advert mobile-hidden">
+          <a href="#">
+            <img src="http://placehold.it/180x150&text=tablet-advert" alt="Advert">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.header-container -->
+
+  <div id="topBar" class="top-bar">
+    <div class="status-bar">
+      <ul class="status-list">
+        <li class="status-item">
+          <a class="status-link status-inbox icn-inbox" title="View Inbox">
+            View Inbox
+            <span class="status-inbox-alert">2</span>
+          </a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-shortlist icn-shortlist" title="View Shortlist">Shortlist</a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-profile icn-profile" title="View Profile">View Profile</a>
+        </li>
+      </ul>
+      <div class="top-adverts">
+      <div class="advert tablet-only">
+        <a href="#">
+          <img src="http://placehold.it/468x60&text=tablet-advert" alt="Advert">
+        </a>
+      </div>
+      <div class="advert pc-only">
+        <a href="#">
+          <img src="http://placehold.it/728x90&text=pc-advert" alt="Advert">
+        </a>
+      </div>
+    </div>
+   <!--    <a href="#" class="button">Login</a>
+   <a href="#" class="button-alt">Sign Up</a> -->
+
+    </div>
+  </div><!-- /#topBar -->
+
+  <!-- %%%%% BREADCRUMBS %%%%% -->
+  <div class="breadcrumbs mobile-hidden">
+    <ol class="breadcrumb-list">
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Lorem</a></li>
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Ipsum</a></li>
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Dolor</a></li>
+    </ol>
+    <div class="results-container">
+      <div class="results-count">1200 Results</div>
+      <select name="search-order-by" id="searchOrderBy" class="search-order-by select-reverse">
+        <option value="">Sort by</option>
+        <option value="">Lorem.</option>
+        <option value="">Necessitatibus?</option>
+        <option value="">Ut!</option>
+        <option value="">Mollitia.</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- %%%%% SEARCH FORM %%%%% -->
+  <div class="inside-search">
+    <form action="#" class="inside-search-form">
+      <div class="search-block" data-stylised-select data-select-icon>
+        <span>Showing</span>
+        <select name="name" id="id1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5+</option>
+        </select>
+        <label for="id1">bedroom</label>
+      </div><!-- /.search-block -->
+      <div class="search-block" data-stylised-select>
+        <select name="name" id="id2">
+          <option value="all">all</option>
+          <option value="apartments">apartments</option>
+          <option value="houses">houses</option>
+          <option value="warehouses">warehouses</option>
+        </select>
+        <label for="id2 hidden">with</label>
+      </div><!-- /.search-block -->
+      <div class="search-block" data-stylised-select data-select-icon>
+        <select name="name" id="id3">
+          <option value="lorem">1</option>
+          <option value="ipsum">2</option>
+          <option value="dolor">3</option>
+        </select>
+        <label for="id3">bathrooms</label>
+      </div><!-- /.search-block -->
+      <div class="search-block tablet-break" data-stylised-select data-select-icon>
+        <span>and</span>
+        <select name="name" id="id4">
+          <option value="lorem">1</option>
+          <option value="ipsum">2</option>
+          <option value="dolor">3</option>
+        </select>
+        <label for="id4">garages</label>,
+      </div><!-- /.search-block -->
+      <div class="search-block" data-stylised-select>
+        <span>under</span>
+        <select name="name" id="id4">
+          <option value="lorem">$500 k</option>
+          <option value="ipsum">$600 k</option>
+          <option value="dolor">$700 k</option>
+          <option value="dolor">$800 k</option>
+          <option value="dolor">$900 k</option>
+        </select>
+      </div><!-- /.search-block -->
+      <div class="text-input-container">
+        <div class="search-block text-input visible" data-input-quick-search>
+          <span>in</span>
+          <input type="text" placeholder="suburb 1" name="sub0">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input last-visible" data-input-quick-search>
+          <input type="text" placeholder="suburb 2" name="sub1">
+        </div><!-- /.search-block -->
+        <button class="add-suburb" type="button"></button>
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 3" name="sub2">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 4" name="sub3">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 5" name="sub4">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 6" name="sub5">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 7" name="sub6">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 8" name="sub7">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 9" name="sub8">
+        </div><!-- /.search-block -->
+        <div class="search-block text-input " data-input-quick-search>
+          <input type="text" placeholder="suburb 10" name="sub9">
+        </div><!-- /.search-block -->
+      </div>
+      <input class="button search-block-button" type="submit" value="Fetch">
+    </form>
+  </div>
+
+  <!-- %%%%% CONTENTS %%%%% -->
+  <main id="main" role="main" class="main search-page">
+    <header>
+      <h1 class="hidden">Search Results</h1>
+    </header>
+    <article class="main-content-container">
+      <div class="mobile-hidden col2-tab p40-pc search-left">
+       <div class="basic-box-thin map-holder">
+          <h2 class="vh">Location</h2>
+          <div id="map" class="search-map"></div>
+          <div class="map-footer">
+            <aside role="complementary">
+              <h3 class="vh">Location Tags</h3>
+              <ul class="tag-list-reverse">
+                <li class="tag-item"><a href="#" class="tag"># New South Wales</a></li>
+                <li class="tag-item"><a href="#" class="tag"># Sydney</a></li>
+                <li class="tag-item"><a href="#" class="tag"># Potts Point</a></li>
+                <li class="tag-item"><a href="#" class="tag"># First Ave</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div><!-- /.map-holder -->
+      </div><!-- /.search-left -->
+      <div class="col2-tab p60-pc search-right">
+         <div class="property-preview search-results">
+          <ul class="property-preview__list">
+            <li class="property-preview__item property-preview__horizontal-pc-switch icn-new" data-map-lat="-33.871000" data-map-lng="151.225000">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+
+            <li class="property-preview__item property-preview__horizontal-pc-switch" data-map-lat="-33.872320" data-map-lng="151.228440">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+
+            <li class="property-preview__item property-preview__horizontal-pc-switch" data-map-lat="-33.872500" data-map-lng="151.228590">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+
+            <li class="property-preview__item property-preview__horizontal-pc-switch" data-map-lat="-33.872000" data-map-lng="151.228910">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+
+            <li class="property-preview__item property-preview__horizontal-pc-switch" data-map-lat="-33.874236" data-map-lng="151.228555">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+
+            <li class="property-preview__item property-preview__horizontal-pc-switch" data-map-lat="-33.872286" data-map-lng="151.229422">
+              <div class="property-preview__header">
+                <div class="property-preview__img">
+                  <img  alt="" src="img/similar.jpg">
+                  <div class="property-preview__views icn-views"><span>250</span> views</div>
+                  <!-- <button class="shortlist-star-small" title="Add to Shortlist"></button> -->
+                </div>
+                <div class="property-preview__text">
+                  <button class="property-preview__map-trigger icn-target"></button>
+                  <h3 class="property-preview__title">Lorem ipsum dolor.</h3>
+                  <div class="property-preview__sub">Lorem ipsum dolor sit amet.</div>
+                </div>
+              </div>
+              <div class="property-preview__body">
+                <ul class="spec-list">
+                  <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+                  <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+                  <li class="spec-item icn-garage"><span>1</span> Garage</li>
+                </ul>
+                <div class="property-preview__price">$500,000</div>
+                <button class="shortlist-star__large" title="Add to Shortlist"></button>
+              </div>
+            </li>
+          </ul>
+          <button class="basic-box-black load-more-button">Load More</button>
+        </div><!-- /.search-results -->
+      </div><!-- /.search-right -->
+    </article>
+  </main>
+
+  <footer id="bodyFooter" class="body-footer" role="contentinfo">
+    <ul class="footer-nav">
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Buy</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Rent</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Listing</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Agents</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Blog</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Help</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Site Map</a></li>
+    </ul>
+  </footer><!-- /#bodyFooter -->
+
+  <!-- %%% scripts %%% -->
+  <script src="js/vendor/jquery-1.11.0.min.js"></script>
+  <!-- [if lt ie 9] >
+    <script type="text/javascript" src="js/vendor/selectivizr.js"></script>
+  <!-- [endif] -->
+  <script src="js/vendor/jquery.flexslider.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/search.js"></script>
+
+  <!--script>
+    var _gaq=[['_setAccount','UA-8595735-33'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+   /script-->
+</body>
+</html>

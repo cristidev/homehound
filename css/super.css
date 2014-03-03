@@ -1,0 +1,172 @@
+/*
+File: large.css
+Website: homehound.com.au
+Description: A Responsive Frontend for Homehound
+Version: 0.0.1
+License: May not be sold or redistibuted. All Contents Copyright 2014.
+*/
+/*
+ * Table of contents
+ *
+ * 1. Content
+ * 2. Modular
+ * 3. Semantic
+ *
+ */
+.super-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+######
+1. CONTENT
+######
+*/
+/* 2.1 Helpers */
+/*
+######
+2. MODULAR
+######
+*/
+/* Stars */
+.rating-stars-small *[class^="star"] {
+  font-size: 1.4em;
+  width: 15px; }
+
+.main-stars *[class^="star"] {
+  font-size: 1.6em;
+  width: 17px; }
+.main-stars .star-off {
+  line-height: 1.1;
+  width: 18px;
+  text-align: center; }
+
+/*
+######
+3. SEMANTIC
+######
+*/
+/* 3.1. Header/Nav */
+.header-content,
+.nav-content,
+.spacer-content {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0); }
+
+.alternate-logo {
+  opacity: 0; }
+
+.site-nav-item:first-child {
+  border-top: 1px solid #434343; }
+
+.site-nav-link.current .nav-tab {
+  background-color: #292929; }
+
+/* 3.2. Main */
+.main {
+  width: 100%;
+  max-width: none;
+  padding-left: 270px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.main-content-container {
+  position: relative;
+  overflow: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 84em;
+  width: 100%;
+  padding: 0 17px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.main-article {
+  width: 61%; }
+
+/* Suburb stats */
+.suburb-stat {
+  width: 45%;
+  float: left; }
+  .suburb-stat:nth-child(odd) {
+    margin-right: 10%; }
+
+.suburb-stat-text {
+  font-size: 1em;
+  width: 80px; }
+
+/* Similar Properties */
+.similar-props-list .spec-list {
+  padding: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.similar-props-list .spec-item {
+  padding: 12px 15px;
+  display: table-cell;
+  border-bottom: 0px; }
+
+/*
+ * ##########################
+ * ##########################
+    # NEW MODULES
+ * ##########################
+ * ##########################
+*/
+/*
+---------
+## Breadcrumbs
+---------
+*/
+.breadcrumbs {
+  padding: 15px;
+  padding-left: 290px; }
+
+.breadcrumb-link {
+  font-size: 1em; }
+
+/*
+---------
+## Property Preview
+---------
+*/
+.property-preview__horizontal-pc-switch .property-preview__header {
+  width: 50%; }
+.property-preview__horizontal-pc-switch .property-preview__body {
+  width: 50%; }
+
+.inside-search {
+  margin-left: 270px;
+  padding-left: 17px; }
+
+.inside-search-form {
+  font-size: 0.9em; }
+
+/*
+ * ##########################
+ * ##########################
+    # NEW PAGES
+ * ##########################
+ * ##########################
+*/
+/*
+---------
+## Search Page
+---------
+*/
+.search-page {
+  padding-top: 0; }
