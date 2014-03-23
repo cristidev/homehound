@@ -1,0 +1,438 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Listing :: HomeHound</title>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:700,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/global.css" type='text/css'>
+  <link rel="stylesheet" href="css/medium.css" type='text/css' media="(min-width:48em)">
+  <link rel="stylesheet" href="css/wide.css" type='text/css' media="(min-width:68em)">
+  <link rel="stylesheet" href="css/super.css" type='text/css' media="(min-width:85em)">
+	<link rel="stylesheet" href="css/custom.css" type='text/css'>
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/medium.css" type='text/css'>
+    <link rel="stylesheet" href="css/wide.css" type='text/css'>
+    <script type="text/javascript" src="js/vendor/html5shiv.js"></script>
+    <script type="text/javascript" src="js/vendor/selectivizr.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEaplFvxZw2tn1q2hpnXgl5VvKLZ-LaY4&amp;sensor=false"></script>
+   <script src="js/vendor/jquery-1.11.0.min.js"></script>
+  <script src="js/vendor/jquery.flexslider.js"></script>
+  <script src="js/global.js"></script> 
+  <script src="js/street-profile.js"></script>
+
+</head>
+<!--[if lte IE 8 ]><body class="lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]><body class="lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!-->
+<body class="no-ie"><!--<![endif]-->
+  <div class="header-container">
+    <header id="bodyHeader" class="body-header" role="banner">
+      <div class="header-tab logo-tab">
+        <button class="nav-switch super-hidden" data-tog data-tog-all data-tog-el=".body-header, .body-nav, .nav-spacer" data-tog-el-class="active" data-tog-this-class="active" title="Show/Hide Nav">
+          <span class="nav-switch-bar top"></span>
+          <span class="nav-switch-bar middle"></span>
+          <span class="nav-switch-bar bottom"></span>
+        </button>
+        <div class="alternate-logo mobile-hidden"></div>
+      </div>
+      <div class="header-content logo-content">
+        <h1 class="site-h"><a href="#" class="site-logo ir">HomeHound</a></h1>
+      </div>
+    </header><!-- /#bodyHeader -->
+
+    <nav id="bodyNav" class="body-nav" role="navigation">
+      <ul class="site-nav">
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-sale nav-tab"></span>
+            <span class="nav-content">For Sale</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-rent nav-tab"></span>
+            <span class="nav-content">To Rent</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-share nav-tab"></span>
+            <span class="nav-content">Share</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-agents nav-tab"></span>
+            <span class="nav-content">Agents</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-nspire nav-tab"></span>
+            <span class="nav-content">Inspiration</span>
+          </a></li>
+      </ul>
+    </nav><!-- /#bodyNav -->
+
+    <div class="nav-spacer">
+      <div class="spacer-tab"></div>
+      <div class="spacer-content spacer-adverts">
+        <div class="advert mobile-hidden">
+          <a href="#">
+            <img src="http://placehold.it/180x150&amp;text=tablet-advert" alt="Advert">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.header-container -->
+
+  <div id="topBar" class="top-bar">
+    <div class="status-bar">
+      <ul class="status-list">
+        <li class="status-item">
+          <a class="status-link status-inbox icn-inbox" title="View Inbox">
+            View Inbox
+            <span class="status-inbox-alert">2</span>
+          </a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-shortlist icn-shortlist" title="View Shortlist">Shortlist</a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-profile icn-profile" title="View Profile">View Profile</a>
+        </li>
+      </ul>
+      <div class="top-adverts">
+      <div class="advert tablet-only">
+        <a href="#">
+          <img src="http://placehold.it/468x60&amp;text=tablet-advert" alt="Advert">
+        </a>
+      </div>
+      <div class="advert pc-only">
+        <a href="#">
+          <img src="http://placehold.it/728x90&amp;text=pc-advert" alt="Advert">
+        </a>
+      </div>
+    </div>
+   <!--    <a href="#" class="button">Login</a>
+   <a href="#" class="button-alt">Sign Up</a> -->
+
+    </div>
+  </div><!-- /#topBar -->
+  
+  
+  <div id="main" class="main">
+  	<div class="main-content-container">
+  		<h1>American Avenue Landfill</h1>
+  		<div class="basic-box-thin map-holder">
+        	<h2 class="vh">Location</h2>
+        	<div id="map" class="map"></div>
+        </div><!-- /.map-holder -->
+        <div class="left-equal street-profile full-on">
+        	<h2 class="street-profile first">Cafes nearby</h2>
+        	<div class="cafe clearfix">
+        		<div class="cafe-name">
+        			<div class="cafe-dets">
+	        			<h3>Cafe name</h3>
+	        			Location of the Restaurant
+        			</div>
+        			<div class="distance">200m.</div>
+        		</div>
+        		<div class="cafe-rating">
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/cafere.png" alt=""/>
+        		</div>
+        	</div>
+        	<div class="cafe clearfix">
+        		<div class="cafe-name">
+        			<div class="cafe-dets">
+	        			<h3>Cafe name</h3>
+	        			Location of the Restaurant
+        			</div>
+        			<div class="distance">200m.</div>
+        		</div>
+        		<div class="cafe-rating">
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/cafere.png" alt=""/>
+        		</div>
+        	</div>
+        	<div class="cafe clearfix">
+        		<div class="cafe-name">
+        			<div class="cafe-dets">
+	        			<h3>Cafe name</h3>
+	        			Location of the Restaurant
+        			</div>
+        			<div class="distance">200m.</div>
+        		</div>
+        		<div class="cafe-rating">
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/cafere.png" alt=""/>
+        		</div>
+        	</div>
+        	<div class="cafe clearfix">
+        		<div class="cafe-name">
+        			<div class="cafe-dets">
+	        			<h3>Cafe name</h3>
+	        			Location of the Restaurant
+        			</div>
+        			<div class="distance">200m.</div>
+        		</div>
+        		<div class="cafe-rating">
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/caferf.png" alt=""/>
+        			<img src="img/cafere.png" alt=""/>
+        		</div>
+        	</div>
+        	
+        	<div class="box-border-full white">
+					<div class="inside-box-border-full suburb-distances street-distances">
+						<ul class="distances custom clearfix">
+							<li class="cbd"><strong>5km</strong> to CBD</li>
+							<li class="park"><strong>1km</strong> to Park</li>
+							<li class="train noborder"><strong>15km</strong> to Train Station</li>
+							<li class="rest noborder"><strong>20</strong> Restaurants near</li>
+						</ul>
+					</div>
+				</div>
+        	
+        	<h2 class="street-profile">Sold on this street</h2>
+        	<div class="basic-box-thin">
+				<div class="split51 full-on-mobile">
+					<div class="height-img inherit-hover">
+						<a href="#"><img src="img/i-house3.png" alt="Demo house" class="cr-pointer" /></a>
+						<h3 class="house-title"><a href="#">3/24 Ward, Sydney</a></h3>
+	    				<div class="house-address">Gulf Shore Bulevard</div>
+					</div>
+				</div><div class="split49 full-on-mobile">
+					<div class="padding-lr">
+    					<ul class="spec-list inline-homepage no-first inline-specs">
+			              <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+			              <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+			              <li class="spec-item icn-garage"><span>1</span> Garage</li>
+			            </ul>
+		            </div>
+		            <div class="house-price-simple align-right cr-pointer"><a href="#">$ 165,000</a></div>
+				</div>
+			</div>
+			<div class="basic-box-thin">
+				<div class="split51 full-on-mobile">
+					<div class="height-img inherit-hover">
+						<a href="#"><img src="img/i-house3.png" alt="Demo house" class="cr-pointer" /></a>
+						<h3 class="house-title"><a href="#">3/24 Ward, Sydney</a></h3>
+	    				<div class="house-address">Gulf Shore Bulevard</div>
+					</div>
+				</div><div class="split49 full-on-mobile">
+					<div class="padding-lr">
+    					<ul class="spec-list inline-homepage no-first inline-specs">
+			              <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+			              <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+			              <li class="spec-item icn-garage"><span>1</span> Garage</li>
+			            </ul>
+		            </div>
+		            <div class="house-price-simple align-right cr-pointer"><a href="#">$ 165,000</a></div>
+				</div>
+			</div>
+			<div class="basic-box-thin">
+				<div class="split51 full-on-mobile">
+					<div class="height-img inherit-hover">
+						<a href="#"><img src="img/i-house3.png" alt="Demo house" class="cr-pointer" /></a>
+						<h3 class="house-title"><a href="#">3/24 Ward, Sydney</a></h3>
+	    				<div class="house-address">Gulf Shore Bulevard</div>
+					</div>
+				</div><div class="split49 full-on-mobile">
+					<div class="padding-lr">
+    					<ul class="spec-list inline-homepage no-first inline-specs">
+			              <li class="spec-item icn-bed"><span>3</span> Bedrooms</li>
+			              <li class="spec-item icn-bath"><span>2</span> Bathrooms</li>
+			              <li class="spec-item icn-garage"><span>1</span> Garage</li>
+			            </ul>
+		            </div>
+		            <div class="house-price-simple align-right cr-pointer"><a href="#">$ 165,000</a></div>
+				</div>
+			</div>	
+			<input type="button" class="see-all" value="see current listings" />
+        </div>
+        <div class="right-equal full-on">
+        	<div class="box-border-full grey-darker">
+        		<div class="inside-box-border-full suburb-distances have-say">
+	        		<div class="clearfix">
+	        			<h2>Have your say</h2>
+	        			<div class="say-rating">
+	        				<div class="rating-stars">
+			                  <span class="star-on"></span>
+			                  <span class="star-on"></span>
+			                  <span class="star-on"></span>
+			                  <span class="star-on"></span>
+			                  <span class="star-off"></span>
+			                </div>
+	        			</div>
+	        		</div>
+	        		<div class="clearfix form-row">
+	        			<div class="form-left">Rate your street</div>
+	        			<div class="form-right"><textarea></textarea></div>
+	        		</div>
+	        		<div class="clearfix form-row">
+	        			<div class="form-left">Your name <span class="aster">*</span></div>
+	        			<div class="form-right"><input type="text" /></div>
+	        		</div>
+	        		<div class="clearfix form-row">
+	        			<div class="form-left">Your email <span class="aster">*</span></div>
+	        			<div class="form-right"><input type="text" /></div>
+	        		</div>
+	        		<div class="clearfix form-row">
+	        			<div class="form-left">Your address <span class="aster">*</span></div>
+	        			<div class="form-right"><input type="text" /></div>
+	        		</div>
+	        		<div class="clearfix form-row">
+	        			<div class="form-expl">* Private or for verification only</div>
+	        			<input type="button" value="post" />
+	        		</div>
+        		</div>
+        	</div>
+        	<div class="box-border-full white">
+        		<div class="inside-box-border-full suburb-distances res-say-container">
+        			<div class="res-say">
+        				<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				<div class="clearfix">
+	        				<div class="res-name">mauricio schnyder</div>
+	        				<div class="t-details">
+	        					<div class="verified">verified resident</div>
+	        					<div class="date">04/10/13</div>
+	        				</div>
+        				</div>
+        				<p>Subscribe to stay up-to-date on the coming release of the simple elegant inventory management suite for iPhone. Lorem ipsum dolor sit amet alem consectetuer adipiscing elit, Subscribe to stay up-to-date.</p>
+        			</div>
+        			<div class="res-say">
+        				<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				<div class="clearfix">
+	        				<div class="res-name">mauricio schnyder</div>
+	        				<div class="t-details">
+	        					<div class="verified">verified resident</div>
+	        					<div class="date">04/10/13</div>
+	        				</div>
+        				</div>
+        				<p>Subscribe to stay up-to-date on the coming release of the simple elegant inventory management suite for iPhone. Lorem ipsum dolor sit amet alem consectetuer adipiscing elit, Subscribe to stay up-to-date.</p>
+        			</div>
+        			<div class="res-say">
+        				<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				<div class="clearfix">
+	        				<div class="res-name">mauricio schnyder</div>
+	        				<div class="t-details">
+	        					<div class="verified">verified resident</div>
+	        					<div class="date">04/10/13</div>
+	        				</div>
+        				</div>
+        				<p>Subscribe to stay up-to-date on the coming release of the simple elegant inventory management suite for iPhone. Lorem ipsum dolor sit amet alem consectetuer adipiscing elit, Subscribe to stay up-to-date.</p>
+        			</div>
+        		</div>
+        	</div>
+        	<h2 class="street-profile">Neighbouring streets</h2>
+        	<div class="box-border-full white">
+        		<div class="inside-box-border-full suburb-distances res-say-container">
+        			<div class="n-street clearfix">
+        				<div class="street-name">Abyy Park Station</div>
+        				<div class="street-rating">
+        					<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				</div>
+        			</div>
+        			<div class="n-street clearfix">
+        				<div class="street-name">Water-lily Avenue</div>
+        				<div class="street-rating">
+        					<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				</div>
+        			</div>
+        			<div class="n-street clearfix">
+        				<div class="street-name">Hubardome Avenue</div>
+        				<div class="street-rating">
+        					<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				</div>
+        			</div>
+        			<div class="n-street clearfix">
+        				<div class="street-name">Abyy Park Station</div>
+        				<div class="street-rating">
+        					<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				</div>
+        			</div>
+        			<div class="n-street clearfix">
+        				<div class="street-name">Abyy Park Station</div>
+        				<div class="street-rating">
+        					<div class="rating-stars-small">
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-on"></span>
+			                <span class="star-off"></span>
+			              </div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+  	</div>
+  </div>
+  <footer id="bodyFooter" class="body-footer" role="contentinfo">
+    <ul class="footer-nav suburb-profile">
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Buy</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Rent</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Listing</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Agents</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Blog</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Help</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Site Map</a></li>
+    </ul>
+  </footer><!-- /#bodyFooter -->
+</body>
+</html>
