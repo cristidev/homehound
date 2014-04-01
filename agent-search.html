@@ -1,0 +1,431 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Modules :: HomeHound</title>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:700,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/global.css" type='text/css'>
+  <link rel="stylesheet" href="css/medium.css" type='text/css' media="(min-width:48em)">
+  <link rel="stylesheet" href="css/wide.css" type='text/css' media="(min-width:68em)">
+  <link rel="stylesheet" href="css/super.css" type='text/css' media="(min-width:85em)">
+  <link rel="stylesheet" href="css/custom.css" type='text/css'>
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/medium.css" type='text/css'>
+    <link rel="stylesheet" href="css/wide.css" type='text/css'>
+  <![endif]-->
+
+  <script type="text/javascript" src="js/vendor/modernizr.custom.09416.js"></script>
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEaplFvxZw2tn1q2hpnXgl5VvKLZ-LaY4&amp;sensor=false"></script>
+
+</head>
+<!--[if lte IE 8 ]><body class="lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]><body class="lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!-->
+<body class="no-ie"><!--<![endif]-->
+
+  <div class="header-container">
+    <header id="bodyHeader" class="body-header" role="banner">
+      <div class="header-tab logo-tab">
+        <button class="nav-switch super-hidden" data-tog data-tog-all data-tog-el=".body-header, .body-nav, .nav-spacer" data-tog-el-class="active" data-tog-this-class="active" title="Show/Hide Nav">
+          <span class="nav-switch-bar top"></span>
+          <span class="nav-switch-bar middle"></span>
+          <span class="nav-switch-bar bottom"></span>
+        </button>
+        <div class="alternate-logo mobile-hidden"></div>
+      </div>
+      <div class="header-content logo-content">
+        <h1 class="site-h"><a href="#" class="site-logo ir">HomeHound</a></h1>
+      </div>
+    </header><!-- /#bodyHeader -->
+
+    <nav id="bodyNav" class="body-nav" role="navigation">
+      <ul class="site-nav">
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-sale nav-tab"></span>
+            <span class="nav-content">For Sale</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-rent nav-tab"></span>
+            <span class="nav-content">To Rent</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-share nav-tab"></span>
+            <span class="nav-content">Share</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-agents nav-tab"></span>
+            <span class="nav-content">Agents</span>
+          </a></li>
+        <li class="site-nav-item"><a href="#" class="site-nav-link">
+            <span class="icn-nspire nav-tab"></span>
+            <span class="nav-content">Inspiration</span>
+          </a></li>
+      </ul>
+    </nav><!-- /#bodyNav -->
+
+    <div class="nav-spacer">
+      <div class="spacer-tab"></div>
+      <div class="spacer-content spacer-adverts">
+        <div class="advert mobile-hidden">
+          <a href="#">
+            <img src="http://placehold.it/180x150&amp;text=tablet-advert" alt="Advert">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.header-container -->
+
+  <div id="topBar" class="top-bar">
+    <div class="status-bar">
+      <ul class="status-list">
+        <li class="status-item">
+          <a class="status-link status-inbox icn-inbox" title="View Inbox">
+            View Inbox
+            <span class="status-inbox-alert">2</span>
+          </a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-shortlist icn-shortlist" title="View Shortlist">Shortlist</a>
+        </li>
+        <li class="status-item">
+          <a class="status-link status-profile icn-profile" title="View Profile">View Profile</a>
+        </li>
+      </ul>
+      <div class="top-adverts">
+      <div class="advert tablet-only">
+        <a href="#">
+          <img src="http://placehold.it/468x60&amp;text=tablet-advert" alt="Advert">
+        </a>
+      </div>
+      <div class="advert pc-only">
+        <a href="#">
+          <img src="http://placehold.it/728x90&amp;text=pc-advert" alt="Advert">
+        </a>
+      </div>
+    </div>
+   <!--    <a href="#" class="button">Login</a>
+   <a href="#" class="button-alt">Sign Up</a> -->
+
+    </div>
+  </div><!-- /#topBar -->
+
+  <!-- %%%%% BREADCRUMBS %%%%% -->
+  <div class="breadcrumbs mobile-hidden">
+    <ol class="breadcrumb-list">
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Lorem</a></li>
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Ipsum</a></li>
+      <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Dolor</a></li>
+    </ol>
+    <div class="results-container">
+      <div class="results-count">1200 Results</div>
+      <dl id="sample" class="dropdown">
+	        <dt><a href="#"><span>Sort by</span></a></dt>
+	        <dd>
+	            <ul>
+	                <li><a href="#">Sort by</a></li>
+	                <li><a href="#">Lorem</a></li>
+	                <li><a href="#">Necessitatibus</a></li>
+	                <li><a href="#">Mollitia</a></li>
+	            </ul>
+	        </dd>
+	    </dl>
+	    <dl id="sample" class="dropdown">
+	        <dt><a href="#"><span>Sort by</span></a></dt>
+	        <dd>
+	            <ul>
+	                 <li><a href="#">Sort by</a></li>
+	                <li><a href="#">Lorem</a></li>
+	                <li><a href="#">Necessitatibus</a></li>
+	                <li><a href="#">Mollitia</a></li>
+	            </ul>
+	        </dd>
+	    </dl>
+    </div>
+  </div>
+  <div id="main" class="main agent-search-page clearfix">
+  	<div class="main-content-container">
+	    <header>
+	      <h1>Filter Criteria</h1>
+	    </header>
+	    <div class="left-map mobile-hidden">
+	    	<div class="basic-box-thin map">
+	    		<div id="as-map">
+	    			
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="right-agents">
+	    	<div class="agent-search-agent left">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent right">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small-2.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent left">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small-3.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent right">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent left">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent right">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small-2.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent left">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small-3.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent right">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent left">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small-3.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<div class="agent-search-agent right">
+	    		<aside class="basic-box agent-profile clearfix" role="complementary">
+		            <img class="agent-pic" alt="" src="img/i-agent-pic-small.png">
+		            <div class="agent-content">
+		            	<div class="clearfix">
+				              <div class='agent-header'>
+				                <h2 class="agent-h">SUE O'MEAGHER</h2>
+				                <a class="c-email" href="#">Email</a>
+				              </div>
+				         </div>
+		             	 <p class="agent-sub">Ray White Clare Valley</p>
+				         <div class="rating-stars">
+		                 	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-on"></span>
+		                  	<span class="star-off"></span>
+		                </div>
+		              <div class="agent-logo">
+		                <img src="img/logo1.jpg" alt="Homestead">
+		              </div>
+		            </div><!-- /.agent-content -->
+		          </aside><!-- /.agent-profile -->
+	    	</div>
+	    	<button class="basic-box-black load-more-button">Load More</button>
+	    </div>
+	    
+    </div>
+    
+  </div>
+   <footer id="bodyFooter" class="body-footer" role="contentinfo">
+    <ul class="footer-nav">
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Buy</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Rent</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Listing</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Agents</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Blog</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Help</a></li>
+      <li class="footer-nav-item"><a href="#" class="footer-nav-link">Site Map</a></li>
+    </ul>
+  </footer><!-- /#bodyFooter -->
+   <!-- %%% scripts %%% -->
+  <script src="js/vendor/jquery-1.11.0.min.js"></script>
+  <script src="js/vendor/jquery.flexslider.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/agent-search.js"></script>
+
+</body>
+</html>

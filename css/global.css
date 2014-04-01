@@ -1195,8 +1195,8 @@ SEMANTIC
 .carousel-views {
   position: absolute;
   z-index: 100;
-  right: 4px;
-  bottom: -31px;
+  right: 9px;
+  bottom: -26px;
   display: block;
   height: 35px;
   padding: 9px 12px;
